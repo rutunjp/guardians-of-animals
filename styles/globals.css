@@ -1,1 +1,12 @@
- 
+ svg{
+    border: 0px solid yellow;
+    border-radius: 50%;
+ }
+ svg:hover{
+    padding: 5px;
+    border:4px solid white;
+    transition: 0.5s;
+ }
+ .wrapper *{
+    margin: auto; 
+ }
