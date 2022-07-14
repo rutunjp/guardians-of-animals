@@ -12,6 +12,10 @@ import GetInvolved from '../components/pageComponents/GetInvolved'
 const Home: NextPage = () => {
   return (
     <ChakraProvider>
+      <Head>
+        <title>Guardians of Animals </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Navbar />
       <HeroSection />
       <HeroBlog />

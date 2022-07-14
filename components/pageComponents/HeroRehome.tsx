@@ -12,6 +12,7 @@ const HeroRehome = () => {
     <Stack
       direction={['column', 'row']}
       justify="center"
+      paddingTop={'5rem'}
       margin={'auto'}
       maxW={'80%'}
     >
